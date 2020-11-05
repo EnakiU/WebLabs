@@ -1,0 +1,42 @@
+.all
+{
+	text-align: center;
+
+}
+.text
+{
+	
+	background-color: white;
+	text-align: center;
+	color: blue;
+	align-items: center;
+	position: absolute;
+	margin: auto 200px auto auto;	
+	margin:5% 40% 0 40%;
+  	width:20%;
+  	border-radius: 10px;
+  
+}
+
+.image
+{
+	cursor: pointer;
+
+}
+.image:hover
+{
+	opacity: 0.8;
+}
+.first
+{
+	color: orange;
+	background-color: white;
+	text-align: center;
+	align-items: center;
+	position: absolute;
+	margin: auto 200px auto auto;	
+	margin:0% 40% 0 40%;
+  	width:20%;
+  	border-radius: 10px;
+
+}

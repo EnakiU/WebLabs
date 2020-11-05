@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laba1</title>
+    <link rel="stylesheet" href="l1style.css">
+    
+</head>
+
+<body background="bg.jpg">
+    
+    <div class="all">
+        
+        <img class="image" id="image" src="photo.jpg" onClick="imgsrc();" width = "250px">
+        <p class="first">При нажатии на картинку изменится фотография</p>
+        <div class="text">
+            <p>Фамилия: Юрьев</p>
+            <p>Имя: Егор</p>
+            <p>Отчество: Юрьевич</p>
+            <p>Группа: ИДБ-18-02</p>
+            <p>Родной город: Владимир</p>
+            <p>Еще информация: информация</p>
+            
+        </div>
+
+    </div>
+
+<script language="javascript">
+        var i=0;
+        var image=document.getElementById("image");
+        var imgs=new Array('photo.jpg','photo1.jpg','photo2.jpg');
+        function imgsrc() {
+            i++;i%=imgs.length;
+            image.src = imgs[i];
+        }
+    </script>
+</body>
+</html>
